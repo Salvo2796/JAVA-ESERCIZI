@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ControlloNumero {
     public int num;
-    public String str;
+    public String str = "";
 
     Scanner input = new Scanner(System.in);
 
@@ -235,5 +235,77 @@ public class ControlloNumero {
         //     System.out.println(entry.getKey() + " - " + entry.getValue());
         // }
 
+        // int [] numeri = {4,6};
+        // int somma = 0;
+        // for(int numero : numeri){
+        //     somma+=numero;
+        // }
+        // System.out.println(somma);
+
+        // int [] numeri = {5,7,22,43};
+        // int [] numeriInvertiti = new int[numeri.length];
+
+        // for(int i =0; i<numeri.length; i++){
+        //     numeriInvertiti[i] = numeri[numeri.length - 1 - i];
+        // }
+        // System.out.println(numeri);
+        // System.out.println(numeriInvertiti);
+
+        // List<Integer> numeri = new ArrayList<>();
+        // numeri.add(4);
+        // numeri.add(5);
+        // int somma = 0;
+        // for(int i= 0; i<numeri.size(); i++){
+        //     somma += numeri.get(i);
+        // }
+        // System.out.println(somma);
+
+        // List<String> lista = new ArrayList<>();
+        // while (!str.equals("a")) {
+        //     System.out.println("aggiungi");
+        // str = input.nextLine();
+        // if (!str.equals("a")) {
+        //     lista.add(str);
+        // }
+        
+        // }
+
+        // System.out.println("cerca");
+        // String parolaCerc = input.nextLine();
+
+        // boolean trovata = true;
+        // for(int i = 0; i < lista.size(); i++){
+        //     if (lista.get(i).equals(parolaCerc)) {
+        //         System.out.println("Parola trovata" + i);
+        //         trovata = false;
+        //         break;
+        //     }
+        // }
+        // if (trovata) {
+        //         System.out.println("parola non trovata");
+        //     }
+    
+        // System.out.println(lista);
+
+        // List<String> invertita = new ArrayList<>();
+        // for(int i = lista.size() - 1; i>=0; i--){
+        //     invertita.add(lista.get(i));
+        // }
+        // System.out.println(invertita);
+        
+        // System.out.println("rimuovi");
+        // int rimuovi = input.nextInt();
+        
+        // for(int i = 0; i<lista.size(); i++){
+        //     if (i == rimuovi) {
+        //         lista.remove(rimuovi);
+        //         System.out.println("persona rimossa: " + lista.get(i));
+        //     }
+        // }
+        // System.out.println(lista);
+
+        int [] numeri = {2,43,554,76,88,66,54,12,34,43};
+        System.out.println(numeri[0]);
+        
     }
 }
