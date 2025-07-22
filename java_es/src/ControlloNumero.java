@@ -19,6 +19,7 @@ public class ControlloNumero {
         System.out.println("4.Prodotto scontato");
         System.out.println("5.Valore massimo");
         System.out.println("6.Valore minimo");
+        System.out.println("7.");
         System.out.println("0.Uscita");
 
         int scelta = input.nextInt();
